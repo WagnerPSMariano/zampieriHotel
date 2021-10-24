@@ -21,5 +21,19 @@ namespace LoginHotel
         {
 
         }
+
+        private void btnAcessar_Click(object sender, EventArgs e)
+        {
+            string id, senha;
+            id = txtId.Text;
+            senha = txtSenha.Text;
+
+            if (id == "171171" && senha == "Zampieri")
+            {
+                FormDashboard novo = new FormDashboard();
+                novo.Show();
+                this.Visible = false;
+            }
+        }
     }
 }
