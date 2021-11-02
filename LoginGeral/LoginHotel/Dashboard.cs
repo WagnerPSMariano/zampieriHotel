@@ -10,16 +10,39 @@ using System.Windows.Forms;
 
 namespace LoginHotel
 {
-    public partial class FormDashboard : Form
+    public partial class Dashboard : Form
     {
-        public FormDashboard()
+        public Dashboard()
         {
             InitializeComponent();
         }
 
-        private void dataToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void btnCliente_Click(object sender, EventArgs e)
         {
+            DadosCliente janelaCiente = new DadosCliente();
+            janelaCiente.Show();
+            this.Close();
+        }
 
+        private void btnFuncionario_Click(object sender, EventArgs e)
+        {
+            DadosFuncionario janelaFuncionario = new DadosFuncionario();
+            janelaFuncionario.Show();
+            this.Close();
+        }
+
+        private void btnQuarto_Click(object sender, EventArgs e)
+        {
+            Quartos janelaQuarto = new Quartos();
+            janelaQuarto.Show();
+            this.Close();
+        }
+
+        private void btnRelatório_Click(object sender, EventArgs e)
+        {
+            Relatorios janelaRelatorio = new Relatorios();
+            janelaRelatorio.Show();
+            this.Close();
         }
     }
 }

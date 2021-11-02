@@ -8,4 +8,7 @@ C:\PIM Hotel Desktop\LoginGeral\LoginHotel\obj\Debug\LoginHotel.csproj.GenerateR
 C:\PIM Hotel Desktop\LoginGeral\LoginHotel\obj\Debug\LoginHotel.csproj.CoreCompileInputs.cache
 C:\PIM Hotel Desktop\LoginGeral\LoginHotel\obj\Debug\LoginHotel.exe
 C:\PIM Hotel Desktop\LoginGeral\LoginHotel\obj\Debug\LoginHotel.pdb
-C:\PIM Hotel Desktop\LoginGeral\LoginHotel\obj\Debug\LoginHotel.FormDashboard.resources
+C:\PIM Hotel Desktop\LoginGeral\LoginHotel\obj\Debug\LoginHotel.DadosCliente.resources
+C:\PIM Hotel Desktop\LoginGeral\LoginHotel\obj\Debug\LoginHotel.DadosFuncionario.resources
+C:\PIM Hotel Desktop\LoginGeral\LoginHotel\obj\Debug\LoginHotel.Quartos.resources
+C:\PIM Hotel Desktop\LoginGeral\LoginHotel\obj\Debug\LoginHotel.Dashboard.resources

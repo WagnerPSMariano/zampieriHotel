@@ -30,7 +30,7 @@ namespace LoginHotel
 
             if (id == "171171" && senha == "Zampieri")
             {
-                FormDashboard novo = new FormDashboard();
+                Dashboard novo = new Dashboard();
                 novo.Show();
                 this.Visible = false;
             }
