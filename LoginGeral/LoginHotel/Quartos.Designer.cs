@@ -46,6 +46,7 @@ namespace LoginHotel
             this.btnCheckOut = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnReservar = new System.Windows.Forms.Button();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -159,58 +160,75 @@ namespace LoginHotel
             // btnPagar
             // 
             this.btnPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPagar.Location = new System.Drawing.Point(180, 330);
+            this.btnPagar.Location = new System.Drawing.Point(175, 340);
             this.btnPagar.Name = "btnPagar";
-            this.btnPagar.Size = new System.Drawing.Size(123, 69);
+            this.btnPagar.Size = new System.Drawing.Size(96, 59);
             this.btnPagar.TabIndex = 12;
             this.btnPagar.Text = "Efetuar pagamento";
             this.btnPagar.UseVisualStyleBackColor = true;
+            this.btnPagar.Click += new System.EventHandler(this.btnPagar_Click);
             // 
             // btnCheckIn
             // 
             this.btnCheckIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCheckIn.Location = new System.Drawing.Point(325, 330);
+            this.btnCheckIn.Location = new System.Drawing.Point(290, 340);
             this.btnCheckIn.Name = "btnCheckIn";
-            this.btnCheckIn.Size = new System.Drawing.Size(123, 69);
+            this.btnCheckIn.Size = new System.Drawing.Size(96, 59);
             this.btnCheckIn.TabIndex = 13;
             this.btnCheckIn.Text = "Check-In";
             this.btnCheckIn.UseVisualStyleBackColor = true;
+            this.btnCheckIn.Click += new System.EventHandler(this.btnCheckIn_Click);
             // 
             // btnCheckOut
             // 
             this.btnCheckOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCheckOut.Location = new System.Drawing.Point(483, 330);
+            this.btnCheckOut.Location = new System.Drawing.Point(404, 340);
             this.btnCheckOut.Name = "btnCheckOut";
-            this.btnCheckOut.Size = new System.Drawing.Size(123, 69);
+            this.btnCheckOut.Size = new System.Drawing.Size(96, 59);
             this.btnCheckOut.TabIndex = 14;
             this.btnCheckOut.Text = "Check-Out";
             this.btnCheckOut.UseVisualStyleBackColor = true;
+            this.btnCheckOut.Click += new System.EventHandler(this.btnCheckOut_Click);
             // 
             // btnCancelar
             // 
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(631, 330);
+            this.btnCancelar.Location = new System.Drawing.Point(525, 340);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(123, 69);
+            this.btnCancelar.Size = new System.Drawing.Size(96, 59);
             this.btnCancelar.TabIndex = 15;
             this.btnCancelar.Text = "Cancelar ";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnReservar
             // 
             this.btnReservar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReservar.Location = new System.Drawing.Point(38, 330);
+            this.btnReservar.Location = new System.Drawing.Point(59, 340);
             this.btnReservar.Name = "btnReservar";
-            this.btnReservar.Size = new System.Drawing.Size(123, 69);
+            this.btnReservar.Size = new System.Drawing.Size(96, 59);
             this.btnReservar.TabIndex = 16;
             this.btnReservar.Text = "Reservar";
             this.btnReservar.UseVisualStyleBackColor = true;
+            this.btnReservar.Click += new System.EventHandler(this.btnReservar_Click);
+            // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.Location = new System.Drawing.Point(648, 340);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(96, 59);
+            this.btnVoltar.TabIndex = 17;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // Quartos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnReservar);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnCheckOut);
@@ -254,5 +272,6 @@ namespace LoginHotel
         private System.Windows.Forms.Button btnCheckOut;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnReservar;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }

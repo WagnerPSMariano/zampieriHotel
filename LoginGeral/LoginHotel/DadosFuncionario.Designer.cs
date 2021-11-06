@@ -50,6 +50,7 @@ namespace LoginHotel
             this.btnEditarFunc = new System.Windows.Forms.Button();
             this.btnListarFunc = new System.Windows.Forms.Button();
             this.btnExcluirFunc = new System.Windows.Forms.Button();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -192,48 +193,64 @@ namespace LoginHotel
             // btnCadastrarFunc
             // 
             this.btnCadastrarFunc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastrarFunc.Location = new System.Drawing.Point(124, 342);
+            this.btnCadastrarFunc.Location = new System.Drawing.Point(95, 345);
             this.btnCadastrarFunc.Name = "btnCadastrarFunc";
             this.btnCadastrarFunc.Size = new System.Drawing.Size(122, 70);
             this.btnCadastrarFunc.TabIndex = 14;
             this.btnCadastrarFunc.Text = "Cadastrar";
             this.btnCadastrarFunc.UseVisualStyleBackColor = true;
+            this.btnCadastrarFunc.Click += new System.EventHandler(this.btnCadastrarFunc_Click);
             // 
             // btnEditarFunc
             // 
             this.btnEditarFunc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditarFunc.Location = new System.Drawing.Point(305, 342);
+            this.btnEditarFunc.Location = new System.Drawing.Point(244, 345);
             this.btnEditarFunc.Name = "btnEditarFunc";
             this.btnEditarFunc.Size = new System.Drawing.Size(122, 70);
             this.btnEditarFunc.TabIndex = 15;
             this.btnEditarFunc.Text = "Editar";
             this.btnEditarFunc.UseVisualStyleBackColor = true;
+            this.btnEditarFunc.Click += new System.EventHandler(this.btnEditarFunc_Click);
             // 
             // btnListarFunc
             // 
             this.btnListarFunc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnListarFunc.Location = new System.Drawing.Point(490, 342);
+            this.btnListarFunc.Location = new System.Drawing.Point(401, 345);
             this.btnListarFunc.Name = "btnListarFunc";
             this.btnListarFunc.Size = new System.Drawing.Size(122, 70);
             this.btnListarFunc.TabIndex = 16;
             this.btnListarFunc.Text = "Listar";
             this.btnListarFunc.UseVisualStyleBackColor = true;
+            this.btnListarFunc.Click += new System.EventHandler(this.btnListarFunc_Click);
             // 
             // btnExcluirFunc
             // 
             this.btnExcluirFunc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExcluirFunc.Location = new System.Drawing.Point(671, 342);
+            this.btnExcluirFunc.Location = new System.Drawing.Point(548, 345);
             this.btnExcluirFunc.Name = "btnExcluirFunc";
             this.btnExcluirFunc.Size = new System.Drawing.Size(122, 70);
             this.btnExcluirFunc.TabIndex = 17;
             this.btnExcluirFunc.Text = "Excluir";
             this.btnExcluirFunc.UseVisualStyleBackColor = true;
+            this.btnExcluirFunc.Click += new System.EventHandler(this.btnExcluirFunc_Click);
+            // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.Location = new System.Drawing.Point(703, 345);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(122, 70);
+            this.btnVoltar.TabIndex = 18;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // DadosFuncionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(919, 510);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnExcluirFunc);
             this.Controls.Add(this.btnListarFunc);
             this.Controls.Add(this.btnEditarFunc);
@@ -285,5 +302,6 @@ namespace LoginHotel
         private System.Windows.Forms.Button btnEditarFunc;
         private System.Windows.Forms.Button btnListarFunc;
         private System.Windows.Forms.Button btnExcluirFunc;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }

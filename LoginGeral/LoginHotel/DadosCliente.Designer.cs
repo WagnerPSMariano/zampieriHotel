@@ -47,47 +47,52 @@ namespace LoginHotel
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.mskCEP = new System.Windows.Forms.MaskedTextBox();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnExcluirCliente
             // 
             this.btnExcluirCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExcluirCliente.Location = new System.Drawing.Point(607, 310);
+            this.btnExcluirCliente.Location = new System.Drawing.Point(485, 316);
             this.btnExcluirCliente.Name = "btnExcluirCliente";
             this.btnExcluirCliente.Size = new System.Drawing.Size(122, 70);
             this.btnExcluirCliente.TabIndex = 21;
             this.btnExcluirCliente.Text = "Excluir";
             this.btnExcluirCliente.UseVisualStyleBackColor = true;
+            this.btnExcluirCliente.Click += new System.EventHandler(this.btnExcluirCliente_Click);
             // 
             // btnListarCliente
             // 
             this.btnListarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnListarCliente.Location = new System.Drawing.Point(426, 310);
+            this.btnListarCliente.Location = new System.Drawing.Point(343, 316);
             this.btnListarCliente.Name = "btnListarCliente";
             this.btnListarCliente.Size = new System.Drawing.Size(122, 70);
             this.btnListarCliente.TabIndex = 20;
             this.btnListarCliente.Text = "Listar";
             this.btnListarCliente.UseVisualStyleBackColor = true;
+            this.btnListarCliente.Click += new System.EventHandler(this.btnListarCliente_Click);
             // 
             // btnEditarCliente
             // 
             this.btnEditarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditarCliente.Location = new System.Drawing.Point(241, 310);
+            this.btnEditarCliente.Location = new System.Drawing.Point(197, 316);
             this.btnEditarCliente.Name = "btnEditarCliente";
             this.btnEditarCliente.Size = new System.Drawing.Size(122, 70);
             this.btnEditarCliente.TabIndex = 19;
             this.btnEditarCliente.Text = "Editar";
             this.btnEditarCliente.UseVisualStyleBackColor = true;
+            this.btnEditarCliente.Click += new System.EventHandler(this.btnEditarCliente_Click);
             // 
             // btnCadastrarCliente
             // 
             this.btnCadastrarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastrarCliente.Location = new System.Drawing.Point(60, 310);
+            this.btnCadastrarCliente.Location = new System.Drawing.Point(54, 316);
             this.btnCadastrarCliente.Name = "btnCadastrarCliente";
             this.btnCadastrarCliente.Size = new System.Drawing.Size(122, 70);
             this.btnCadastrarCliente.TabIndex = 18;
             this.btnCadastrarCliente.Text = "Cadastrar";
             this.btnCadastrarCliente.UseVisualStyleBackColor = true;
+            this.btnCadastrarCliente.Click += new System.EventHandler(this.btnCadastrarCliente_Click);
             // 
             // mskCPFClient
             // 
@@ -226,11 +231,23 @@ namespace LoginHotel
             this.mskCEP.Size = new System.Drawing.Size(79, 20);
             this.mskCEP.TabIndex = 37;
             // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.Location = new System.Drawing.Point(626, 316);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(122, 70);
+            this.btnVoltar.TabIndex = 38;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
+            // 
             // DadosCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(811, 488);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.mskCEP);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.mskCPFClient);
@@ -277,5 +294,6 @@ namespace LoginHotel
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.MaskedTextBox mskCEP;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }

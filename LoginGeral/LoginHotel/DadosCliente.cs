@@ -16,11 +16,71 @@ namespace LoginHotel
         public DadosCliente()
         {
             InitializeComponent();
+
+            txtClienteNome.Enabled = true;
+            txtClienteEmail.Enabled = true;
+            txtClienteEnd.Enabled = true;
+            mskCEP.Enabled = true;
+            mskDataNascClient.Enabled = true;
+            mskTelClient.Enabled = true;
+            mskCPFClient.Enabled = true;
         }
 
         private void DadosCliente_Load(object sender, EventArgs e)
         {
+            
+            
+        }
 
+        private void btnCadastrarCliente_Click(object sender, EventArgs e)
+        {
+            txtClienteNome.Enabled = true;
+            txtClienteEmail.Enabled = true;
+            txtClienteEnd.Enabled = true;
+            mskCEP.Enabled = true;
+            mskDataNascClient.Enabled = true;
+            mskTelClient.Enabled = true;
+            mskCPFClient.Enabled = true;
+        }
+
+        private void btnEditarCliente_Click(object sender, EventArgs e)
+        {
+            txtClienteNome.Enabled = true;
+            txtClienteEmail.Enabled = true;
+            txtClienteEnd.Enabled = true;
+            mskCEP.Enabled = true;
+            mskDataNascClient.Enabled = true;
+            mskTelClient.Enabled = true;
+            mskCPFClient.Enabled = true;
+        }
+
+        private void btnListarCliente_Click(object sender, EventArgs e)
+        {
+            txtClienteNome.Enabled = true;
+            txtClienteEmail.Enabled = true;
+            txtClienteEnd.Enabled = true;
+            mskCEP.Enabled = true;
+            mskDataNascClient.Enabled = true;
+            mskTelClient.Enabled = true;
+            mskCPFClient.Enabled = true;
+        }
+
+        private void btnExcluirCliente_Click(object sender, EventArgs e)
+        {
+            txtClienteNome.Enabled = true;
+            txtClienteEmail.Enabled = true;
+            txtClienteEnd.Enabled = true;
+            mskCEP.Enabled = true;
+            mskDataNascClient.Enabled = true;
+            mskTelClient.Enabled = true;
+            mskCPFClient.Enabled = true;
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Dashboard janelaDash = new Dashboard();
+            janelaDash.Show();
+            this.Close();
         }
     }
 }
