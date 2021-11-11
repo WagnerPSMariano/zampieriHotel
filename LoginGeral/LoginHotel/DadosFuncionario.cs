@@ -39,6 +39,11 @@ namespace LoginHotel
             mskDataNasc.Enabled = true;
             mskTel.Enabled = true;
             mskCPF.Enabled = true;
+
+            if (btnCadastrarFunc.Enabled)
+                btnCadastrarFunc.Enabled = false;
+            else
+                btnCadastrarFunc.Enabled = true;
         }
 
         private void btnEditarFunc_Click(object sender, EventArgs e)
@@ -50,6 +55,11 @@ namespace LoginHotel
             mskDataNasc.Enabled = true;
             mskTel.Enabled = true;
             mskCPF.Enabled = true;
+
+            if (btnEditarFunc.Enabled)
+                btnEditarFunc.Enabled = false;
+            else
+                btnEditarFunc.Enabled = true;
         }
 
         private void btnListarFunc_Click(object sender, EventArgs e)
@@ -61,6 +71,11 @@ namespace LoginHotel
             mskDataNasc.Enabled = true;
             mskTel.Enabled = true;
             mskCPF.Enabled = true;
+
+            if (btnListarFunc.Enabled)
+                btnListarFunc.Enabled = false;
+            else
+                btnListarFunc.Enabled = true;
         }
 
         private void btnExcluirFunc_Click(object sender, EventArgs e)
@@ -72,6 +87,11 @@ namespace LoginHotel
             mskDataNasc.Enabled = true;
             mskTel.Enabled = true;
             mskCPF.Enabled = true;
+
+            if (btnExcluirFunc.Enabled)
+                btnExcluirFunc.Enabled = false;
+            else
+                btnExcluirFunc.Enabled = true;
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)

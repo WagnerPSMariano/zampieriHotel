@@ -24,11 +24,11 @@ namespace LoginHotel
 
         private void btnAcessar_Click(object sender, EventArgs e)
         {
-            string id, senha;
-            id = txtId.Text;
+            string email, senha;
+            email = txtId.Text;
             senha = txtSenha.Text;
 
-            if (id == "171171" && senha == "Zampieri")
+            if (email == "administrator@zampieri.com" && senha == "Zampieri")
             {
                 Dashboard novo = new Dashboard();
                 novo.Show();

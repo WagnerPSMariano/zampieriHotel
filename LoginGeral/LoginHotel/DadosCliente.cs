@@ -41,6 +41,11 @@ namespace LoginHotel
             mskDataNascClient.Enabled = true;
             mskTelClient.Enabled = true;
             mskCPFClient.Enabled = true;
+
+            if (btnCadastrarCliente.Enabled)
+                btnCadastrarCliente.Enabled = false;
+            else
+                btnCadastrarCliente.Enabled = true;
         }
 
         private void btnEditarCliente_Click(object sender, EventArgs e)
@@ -52,6 +57,11 @@ namespace LoginHotel
             mskDataNascClient.Enabled = true;
             mskTelClient.Enabled = true;
             mskCPFClient.Enabled = true;
+
+            if (btnEditarCliente.Enabled)
+                btnEditarCliente.Enabled = false;
+            else
+                btnEditarCliente.Enabled = true;
         }
 
         private void btnListarCliente_Click(object sender, EventArgs e)
@@ -63,6 +73,11 @@ namespace LoginHotel
             mskDataNascClient.Enabled = true;
             mskTelClient.Enabled = true;
             mskCPFClient.Enabled = true;
+
+            if (btnListarCliente.Enabled)
+                btnListarCliente.Enabled = false;
+            else
+                btnListarCliente.Enabled = true;
         }
 
         private void btnExcluirCliente_Click(object sender, EventArgs e)
@@ -74,6 +89,11 @@ namespace LoginHotel
             mskDataNascClient.Enabled = true;
             mskTelClient.Enabled = true;
             mskCPFClient.Enabled = true;
+
+            if (btnExcluirCliente.Enabled)
+                btnExcluirCliente.Enabled = false;
+            else
+                btnExcluirCliente.Enabled = true;
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)

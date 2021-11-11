@@ -83,7 +83,7 @@ namespace LoginHotel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(683, 465);
             this.Controls.Add(this.btnRelatório);
             this.Controls.Add(this.btnQuarto);

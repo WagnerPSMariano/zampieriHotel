@@ -219,7 +219,7 @@ namespace LoginHotel
             this.btnListarFunc.Name = "btnListarFunc";
             this.btnListarFunc.Size = new System.Drawing.Size(122, 70);
             this.btnListarFunc.TabIndex = 16;
-            this.btnListarFunc.Text = "Listar";
+            this.btnListarFunc.Text = "Buscar";
             this.btnListarFunc.UseVisualStyleBackColor = true;
             this.btnListarFunc.Click += new System.EventHandler(this.btnListarFunc_Click);
             // 
@@ -249,6 +249,7 @@ namespace LoginHotel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(919, 510);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnExcluirFunc);

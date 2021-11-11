@@ -16,5 +16,28 @@ namespace LoginHotel
         {
             InitializeComponent();
         }
+
+        private void btnConsultar_Click(object sender, EventArgs e)
+        {
+            if (btnConsultar.Enabled)
+                btnConsultar.Enabled = false;
+            else
+                btnConsultar.Enabled = true;
+        }
+
+        private void btnAtualizar_Click(object sender, EventArgs e)
+        {
+            if (btnAtualizar.Enabled)
+                btnAtualizar.Enabled = false;
+            else
+                btnAtualizar.Enabled = true;
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Dashboard janelaDash = new Dashboard();
+            janelaDash.Show();
+            this.Close();
+        }
     }
 }

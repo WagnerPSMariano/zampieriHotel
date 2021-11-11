@@ -42,11 +42,11 @@ namespace LoginHotel
             // 
             this.lbIdentity.AutoSize = true;
             this.lbIdentity.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbIdentity.Location = new System.Drawing.Point(27, 64);
+            this.lbIdentity.Location = new System.Drawing.Point(13, 62);
             this.lbIdentity.Name = "lbIdentity";
-            this.lbIdentity.Size = new System.Drawing.Size(21, 15);
+            this.lbIdentity.Size = new System.Drawing.Size(44, 15);
             this.lbIdentity.TabIndex = 0;
-            this.lbIdentity.Text = "ID";
+            this.lbIdentity.Text = "Email";
             // 
             // txtId
             // 
@@ -100,7 +100,7 @@ namespace LoginHotel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SandyBrown;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(587, 394);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnAcessar);
