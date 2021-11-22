@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -84,6 +87,13 @@
     <Compile Include="Relatorios.Designer.cs">
       <DependentUpon>Relatorios.cs</DependentUpon>
     </Compile>
+    <Compile Include="ServiceHelper.cs" />
+    <Compile Include="Services.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Services.Designer.cs">
+      <DependentUpon>Services.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DadosCliente.resx">
       <DependentUpon>DadosCliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -112,6 +122,10 @@
     <EmbeddedResource Include="Relatorios.resx">
       <DependentUpon>Relatorios.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Services.resx">
+      <DependentUpon>Services.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

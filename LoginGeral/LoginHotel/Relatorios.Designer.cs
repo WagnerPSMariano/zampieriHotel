@@ -29,20 +29,20 @@ namespace LoginHotel
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataReletorio = new System.Windows.Forms.DataGridView();
+            this.dataRelatorio = new System.Windows.Forms.DataGridView();
             this.btnAtualizar = new System.Windows.Forms.Button();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataReletorio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataRelatorio)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataReletorio
+            // dataRelatorio
             // 
-            this.dataReletorio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataReletorio.Location = new System.Drawing.Point(109, 65);
-            this.dataReletorio.Name = "dataReletorio";
-            this.dataReletorio.Size = new System.Drawing.Size(240, 288);
-            this.dataReletorio.TabIndex = 0;
+            this.dataRelatorio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataRelatorio.Location = new System.Drawing.Point(109, 65);
+            this.dataRelatorio.Name = "dataRelatorio";
+            this.dataRelatorio.Size = new System.Drawing.Size(240, 288);
+            this.dataRelatorio.TabIndex = 0;
             // 
             // btnAtualizar
             // 
@@ -87,17 +87,17 @@ namespace LoginHotel
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.btnAtualizar);
-            this.Controls.Add(this.dataReletorio);
+            this.Controls.Add(this.dataRelatorio);
             this.Name = "Relatorios";
             this.Text = "Relatorios";
-            ((System.ComponentModel.ISupportInitialize)(this.dataReletorio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataRelatorio)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataReletorio;
+        private System.Windows.Forms.DataGridView dataRelatorio;
         private System.Windows.Forms.Button btnAtualizar;
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.Button btnVoltar;

@@ -13,3 +13,6 @@ C:\PIM Hotel Desktop\LoginGeral\LoginHotel\obj\Debug\LoginHotel.DadosFuncionario
 C:\PIM Hotel Desktop\LoginGeral\LoginHotel\obj\Debug\LoginHotel.Quartos.resources
 C:\PIM Hotel Desktop\LoginGeral\LoginHotel\obj\Debug\LoginHotel.Dashboard.resources
 C:\PIM Hotel Desktop\LoginGeral\LoginHotel\obj\Debug\LoginHotel.Relatorios.resources
+C:\PIM Hotel Desktop\LoginGeral\LoginHotel\obj\Debug\LoginHotel.Services.resources
+C:\PIM Hotel Desktop\LoginGeral\LoginHotel\bin\Debug\Newtonsoft.Json.dll
+C:\PIM Hotel Desktop\LoginGeral\LoginHotel\bin\Debug\Newtonsoft.Json.xml
