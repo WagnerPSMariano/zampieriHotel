@@ -11,7 +11,7 @@ namespace LoginHotel
 {
     public static class ServiceHelper
     {
-        private static readonly string baseURL = "http://44.197.120.242:5000/swagger/index.html";
+        private static readonly string baseURL = "http://44.197.120.242:5000/";
 
         public static async Task<string> GetAll()
         {

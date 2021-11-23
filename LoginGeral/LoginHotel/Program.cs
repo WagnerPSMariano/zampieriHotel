@@ -16,8 +16,7 @@ namespace LoginHotel
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Services());
-            
+            Application.Run(new Services()); 
         }
     }
 }
